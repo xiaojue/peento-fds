@@ -1,0 +1,37 @@
+{
+  "name": "peento-fds",
+  "version": "0.0.1",
+  "description": "a simple, efficient, convenient RIA development environment",
+  "keywords": [
+    "static",
+    "proxy",
+    "front-end"
+  ],
+  "homepage": "https://github.com/xiaojue/peento-fds",
+  "author": [
+    {
+      "name": "xiaojue",
+      "email": "designsor@gmail.com",
+      "url": "http://www.tuer.me"
+    }
+  ],
+  "main": "./src/index.js",
+  "bin": {
+    "fd-server": "./src/bin/fds"
+  },
+  "dependencies": {
+    "peento":"*",
+    "async": "*",
+    "commander": "*",
+    "forever": "*",
+    "log4js": "*"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuxiaoyue/fd-server"
+  },
+  "license": "MIT"
+}
