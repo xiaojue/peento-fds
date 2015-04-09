@@ -15,16 +15,12 @@
       "url": "http://www.tuer.me"
     }
   ],
-  "main": "./src/index.js",
+  "main": "./index.js",
   "bin": {
     "fd-server": "./src/bin/fds"
   },
   "dependencies": {
-    "peento":"*",
-    "async": "*",
-    "commander": "*",
-    "forever": "*",
-    "log4js": "*"
+    "peento":"*"
   },
   "devDependencies": {
     "mocha": "*"

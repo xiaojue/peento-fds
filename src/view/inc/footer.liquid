@@ -1,0 +1,13 @@
+  <div class="container footer">
+    <hr/>
+    <p class="text-muted"><small class="text-danger"> 
+    {% for item in ip %}
+      {{ item|join:':' }} &nbsp;&nbsp;
+    {% endfor %}
+    </small>
+    <br>  
+    <small>© 2014 - 2099 <a target="_blank" href="http://fd-server.org">fd-server.org</a> Prower by <a href="https://github.com/SinaBlogFE" target="_blank">SinaBlogFE</a></small>
+    </p>
+  </div>
+  </body>
+</html>
