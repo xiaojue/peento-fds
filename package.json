@@ -20,7 +20,8 @@
     "fd-server": "./src/bin/fds"
   },
   "dependencies": {
-    "peento":"*"
+    "peento":"*",
+    "fs-extra":"*"
   },
   "devDependencies": {
     "mocha": "*"
