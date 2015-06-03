@@ -3,6 +3,7 @@ module.exports = function(ns, plugin, debug) {
   var app = ns('app');
   app.once('start', function() {
     ns('configManager', require('./lib/config'));
+    ns('fdsConfig', require('../config'));
   });
 };
 
